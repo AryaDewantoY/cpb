@@ -83,7 +83,7 @@ return (
           </div>
 
           {/* COLUMN-3: CONTACT INFO */}
-          <div className='lg:col-span-4 flex flex-col gap-4'> {/* Menggunakan gap flex, bukan margin-top manual yang besar */}
+          <div className='lg:col-span-4 flex flex-col gap-4'>
             <div className='flex gap-2 items-center'>
               <Icon icon={'tabler:map-pin'} width={18} height={18} className='text-lightgrey' />
               <p className='text-sm font-normal text-offwhite'>Jl. Alam Sutra Raya</p>

@@ -54,8 +54,8 @@ const defaultText = {
     "Kami menjunjung tinggi transparansi dalam setiap proses kerja, dengan standar kualitas yang terbaik.",
   Expierience:
     "Pengalaman kami menjadi fondasi dalam memberikan solusi dan berinovasi untuk pelayanan.",
-  Rebuild:
-    "Kami berkomitmen untuk terus berkembang dan membangun ulang sistem yang lebih baik dan terintegrasi.",
+  // Rebuild:
+  //   "Kami berkomitmen untuk terus berkembang dan membangun ulang sistem yang lebih baik dan terintegrasi.",
 };
 
 const ProjectData: ProjectType[] = [
@@ -63,7 +63,7 @@ const ProjectData: ProjectType[] = [
   { imgSrc: '/images/project/value.svg', name: 'value', description: defaultText.Value },
   { imgSrc: '/images/project/transparans.svg', name: 'transparancy', description: defaultText.Transparancy },
   { imgSrc: '/images/project/exp.svg', name: 'expierience', description: defaultText.Expierience },
-  { imgSrc: '/images/project/build.svg', name: 'rebuild', description: defaultText.Rebuild },
+  // { imgSrc: '/images/project/build.svg', name: 'rebuild', description: defaultText.Rebuild },
 ];
 
 

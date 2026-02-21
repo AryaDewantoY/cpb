@@ -9,5 +9,5 @@ export type defaultText= {
     value: string;
     transpasi: string;
     expierience: string;
-    rebuild: string;
+    // rebuild: string;
 }
