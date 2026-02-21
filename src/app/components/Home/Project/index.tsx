@@ -98,7 +98,7 @@ const settings = {
 
 return (
   <div id="operation" className="scroll-mt-12">
-  <section className="bg-[#000b21] py-16">
+  <section className="relative py-20 overflow-hidden bg-secondary dark:bg-[#031436] transition-all duration-300">
   <div className="w-full max-w-[1600px] mx-auto px-8">
         
         {/* Header Section */}
@@ -119,7 +119,7 @@ return (
               ))
             : project.map((item, i) => (
                 <div key={i} className="h-full">
-                  <div className="p-8 bg-[#0a192f] border border-white/10 rounded-2xl shadow-xl flex flex-col items-center h-full transition-all duration-300 hover:border-primary/50">
+                  <div className="p-8 border-white/10 rounded-2xl shadow-xl flex flex-col items-center h-full transition-all duration-300 hover:border-primary/50">
                     
                     {/* Icon */}
                     <div className='p-4 bg-primary/10 rounded-full w-max mb-6 flex items-center justify-center'>
