@@ -106,7 +106,7 @@ return (
           <h2 className="text-primary font-bold tracking-widest text-3xl mb-2 uppercase">
             OPERATIONS PRINCIPLE
           </h2>
-          <h1 className="text-2xl md:text-3xl font-semibold text-white max-w-2xl mx-auto leading-snug">
+          <h1 className="text-2xl md:text-3xl font-semibold text-gray-600 dark:text-gray-300 max-w-2xl mx-auto leading-snug">
             Pelayanan Yang Menuntun Operasional Harian Perusahaan
           </h1>
         </div>
@@ -133,14 +133,14 @@ return (
 
                     {/* Content */}
                     <div className="flex-grow flex flex-col items-center">
-                      <h5 className="text-center mb-4 font-bold text-white uppercase text-lg tracking-widest">
+                      <h5 className="text-center mb-4 font-bold text-gray-900 dark:text-white uppercase text-lg tracking-widest">
                         {item.name}
                       </h5>
                       
                       {/* Divider Line */}
                       <div className="w-12 h-1 bg-primary mb-6 rounded-full"></div>
                       
-                      <p className="text-center text-sm md:text-base text-gray-300 leading-relaxed italic">
+                      <p className="text-center text-sm md:text-base text-gray-600 dark:text-gray-300 leading-relaxed italic">
                         "{item.description}"
                       </p>
                     </div>
